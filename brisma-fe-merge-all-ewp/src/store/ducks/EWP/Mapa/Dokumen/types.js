@@ -1,0 +1,23 @@
+const prefix = "MAPA_DOKUMEN";
+
+export const FETCH_START = `${prefix}/FETCH_START`;
+export const FETCH_SUCCESSFUL = `${prefix}/FETCH_SUCCESSFUL`;
+export const FETCH_FAILED = `${prefix}/FETCH_FAILED`;
+
+export const FETCH_KOMEN_START = `${prefix}/FETCH_KOMEN_START`;
+export const FETCH_KOMEN_SUCCESSFUL = `${prefix}/FETCH_KOMEN_SUCCESSFUL`;
+export const FETCH_KOMEN_FAILED = `${prefix}/FETCH_KOMEN_FAILED`;
+
+export const SUBMIT_KOMEN_START = `${prefix}/SUBMIT_KOMEN_START`;
+export const SUBMIT_KOMEN_SUCCESSFUL = `${prefix}/SUBMIT_KOMEN_SUCCESSFUL`;
+export const SUBMIT_KOMEN_FAILED = `${prefix}/SUBMIT_KOMEN_FAILED`;
+
+export const SUBMIT_CLOSE_KOMEN_START = `${prefix}/SUBMIT_CLOSE_KOMEN_START`;
+export const SUBMIT_CLOSE_KOMEN_SUCCESSFUL = `${prefix}/SUBMIT_CLOSE_KOMEN_SUCCESSFUL`;
+export const SUBMIT_CLOSE_KOMEN_FAILED = `${prefix}/SUBMIT_CLOSE_KOMEN_FAILED`;
+
+export const SUBMIT_APPROVAL_DOC_START = `${prefix}/SUBMIT_APPROVAL_DOC_START`;
+export const SUBMIT_APPROVAL_DOC_SUCCESSFUL = `${prefix}/SUBMIT_APPROVAL_DOC_SUCCESSFUL`;
+export const SUBMIT_APPROVAL_DOC_FAILED = `${prefix}/SUBMIT_APPROVAL_DOC_FAILED`;
+
+export const SET_REASON = `${prefix}/SET_REASON`;

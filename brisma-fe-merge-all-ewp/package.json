@@ -1,0 +1,78 @@
+{
+  "name": "brisma",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@ckeditor/ckeditor5-build-classic": "^31.1.0",
+    "@ckeditor/ckeditor5-react": "^3.0.3",
+    "@material-tailwind/react": "0.3.4",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "antd-table-saveas-excel": "^2.1.5",
+    "axios": "^0.24.0",
+    "chart.js": "^3.7.1",
+    "ckeditor5-custom-build": "file:./ckeditor5",
+    "draft-js": "^0.11.7",
+    "history": "5",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "papaparse": "^5.3.1",
+    "prop-types": "^15.7.2",
+    "qr-image": "^3.2.0",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.3.0",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^17.0.2",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-icons": "^4.3.1",
+    "react-moment": "^1.1.1",
+    "react-number-format": "^4.8.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.1.1",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1",
+    "socket.io-client": "^4.4.0",
+    "swiper": "^7.3.2",
+    "virtuallist-antd": "^0.7.1",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run watch:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "immutable": "^4.0.0",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^2.2.19"
+  }
+}

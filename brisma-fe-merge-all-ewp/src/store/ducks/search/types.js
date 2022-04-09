@@ -1,0 +1,30 @@
+const prefix = "SEARCH";
+
+export const SEARCH_AUDITOR_START = `${prefix}/SEARCH_AUDITOR_START`;
+export const SEARCH_AUDITOR_SUCCESS = `${prefix}/SEARCH_AUDITOR_SUCCESS`;
+export const SEARCH_AUDITOR_FAIL = `${prefix}/SEARCH_AUDITOR_FAIL`;
+
+export const SEARCH_AUDITEE_START = `${prefix}/SEARCH_AUDITEE_START`;
+export const SEARCH_AUDITEE_SUCCESS = `${prefix}/SEARCH_AUDITEE_SUCCESS`;
+export const SEARCH_AUDITEE_FAIL = `${prefix}/SEARCH_AUDITEE_FAIL`;
+
+export const SEARCH_BRANCH_START = `${prefix}/SEARCH_BRANCH_START`;
+export const SEARCH_BRANCH_SUCCESS = `${prefix}/SEARCH_BRANCH_SUCCESS`;
+export const SEARCH_BRANCH_FAIL = `${prefix}/SEARCH_BRANCH_FAIL`;
+export const SET_BRANCH = `${prefix}/SET_BRANCH`;
+
+export const SEARCH_ORGEH_BRANCH_START = `${prefix}/SEARCH_ORGEH_BRANCH_START`;
+export const SEARCH_ORGEH_BRANCH_SUCCESS = `${prefix}/SEARCH_ORGEH_BRANCH_SUCCESS`;
+export const SEARCH_ORGEH_BRANCH_FAIL = `${prefix}/SEARCH_ORGEH_BRANCH_FAIL`;
+
+export const SEARCH_SBP_START = `${prefix}/SEARCH_SBP_START`;
+export const SEARCH_SBP_SUCCESS = `${prefix}/SEARCH_SBP_SUCCESS`;
+export const SEARCH_SBP_FAIL = `${prefix}/SEARCH_SBP_FAIL`;
+
+export const SEARCH_BRANCH_CHILDREN_START = `${prefix}/SEARCH_BRANCH_CHILDREN_START`;
+export const SEARCH_BRANCH_CHILDREN_SUCCESS = `${prefix}/SEARCH_BRANCH_CHILDREN_SUCCESS`;
+export const SEARCH_BRANCH_CHILDREN_FAIL = `${prefix}/SEARCH_BRANCH_CHILDREN_FAIL`;
+
+export const SEARCH_ORGEH_START = `${prefix}/SEARCH_ORGEH_START`;
+export const SEARCH_ORGEH_SUCCESS = `${prefix}/SEARCH_ORGEH_SUCCESS`;
+export const SEARCH_ORGEH_FAIL = `${prefix}/SEARCH_ORGEH_FAIL`;
